@@ -1,0 +1,26 @@
+{
+    "devDependencies": {
+        "@material-ui/core": "^1.5.1",
+        "@material-ui/icons": "^2.0.3",
+        "@symfony/webpack-encore": "^0.20.0",
+        "axios": "^0.18.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-react": "^6.24.1",
+        "html-react-parser": "^0.4.6",
+        "prop-types": "^15.6.2",
+        "react": "^16.5.0",
+        "react-adsense": "0.0.6",
+        "react-cookie-consent": "^1.7.0",
+        "react-dom": "^16.5.0",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production"
+    }
+}
